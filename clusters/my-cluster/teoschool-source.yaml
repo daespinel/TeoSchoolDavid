@@ -2,11 +2,11 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: TeosSchoolDavid
+  name: teosschooldavid
   namespace: flux-system
 spec:
   interval: 30s
   ref:
     branch: master
-  url: https://github.com/daespinel/TeoSchoolDavid
+  url: https://github.com/daespinel/teoschooldavid
 
