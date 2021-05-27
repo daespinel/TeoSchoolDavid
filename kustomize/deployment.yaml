@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: train-schedule
-        image: dafespinelsa:75
+        image: dafespinelsa/train-schedule:75
         ports:
         - containerPort: 8080
         livenessProbe:
