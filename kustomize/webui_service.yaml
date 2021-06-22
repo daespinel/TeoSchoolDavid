@@ -3,11 +3,10 @@ kind: Service
 metadata:
   name: webui
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     component: webui
   ports:
-    - targetPort: 3000   
-      port: 8080
-      protocol: "TCP"
+    - port: 8080
+      targetPort: 8082
  
