@@ -15,4 +15,4 @@ spec:
       hostname: worker
       containers:
         - name: worker
-          image: dafespinelsa/hasher:1.0-dev
+        image: dafespinelsa/worker:1.0-RC
