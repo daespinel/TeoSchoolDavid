@@ -15,7 +15,7 @@ spec:
       hostname: hasher
       containers:
         - name: hasher
-          image: dafespinelsa/hasher:1.0-rc
+          image: dafespinelsa/hasher:1.0.0-rc
           ports:
             - containerPort: 8080
           livenessProbe:
