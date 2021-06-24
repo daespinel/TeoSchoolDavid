@@ -8,5 +8,6 @@ spec:
     component: webui
   ports:
     - port: 8080
-      targetPort: 8082
+      targetPort: 8080
+      nodePort: 8082
  
